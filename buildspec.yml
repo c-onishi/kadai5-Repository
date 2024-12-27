@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - aws deploy push --application-name CodeDeploy --s3-location s3://kadai5-s3/artifact.zip --source src
+      - aws deploy push --application-name kadai5-CodeDeploy --s3-location s3://kadai5-s3/artifact.zip --source src
 artifacts:
   files:
     - '**/*'
